@@ -35,23 +35,23 @@ module.exports = {
   */
   buildModules: [
     // Doc: https://github.com/nuxt-community/eslint-module
-    '@nuxtjs/eslint-module'
+    '@nuxtjs/eslint-module',
+    '@nuxtjs/gtm'
   ],
+  gtm: {
+    id: 'GTM-106211927-14'
+  },
   /*
   ** Nuxt.js modules
   */
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
-    '@nuxtjs/google-adsense',
-    '@nuxtjs/google-gtag'
+    '@nuxtjs/google-adsense'
   ],
   'google-adsense': {
     id: 'ca-pub-2669162039689132',
     pageLevelAds: true
-  },
-  'google-gtag': {
-    id: 'UA-106211927-14'
   },
   /*
   ** Axios module configuration
