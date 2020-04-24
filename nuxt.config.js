@@ -43,11 +43,15 @@ module.exports = {
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
-    ['@nuxtjs/google-adsense']
+    '@nuxtjs/google-adsense',
+    '@nuxtjs/google-gtag'
   ],
   'google-adsense': {
     id: 'ca-pub-2669162039689132',
     pageLevelAds: true
+  },
+  'google-gtag': {
+    id: 'UA-106211927-14'
   },
   /*
   ** Axios module configuration
