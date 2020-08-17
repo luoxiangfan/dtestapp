@@ -30,11 +30,11 @@
 <script>
 
 export default {
-  async asyncData (context) {
-    const { data } = await context.$axios.get('http://47.241.6.230:8080/coupons-management/green/index')
-    // console.log(context)
-    return { resData: data }
-  },
+  // async asyncData (context) {
+  //   const { data } = await context.$axios.get('http://47.241.6.230:8080/coupons-management/green/index')
+  //   // console.log(context)
+  //   return { resData: data }
+  // },
   data () {
     return {
       resData: {}

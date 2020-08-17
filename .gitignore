@@ -71,6 +71,9 @@ typings/
 # Nuxt generate
 dist
 
+# package-lock.json
+package-lock.json
+
 # vuepress build output
 .vuepress/dist
 

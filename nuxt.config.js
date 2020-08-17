@@ -36,28 +36,38 @@ module.exports = {
   buildModules: [
     // Doc: https://github.com/nuxt-community/eslint-module
     '@nuxtjs/eslint-module',
-    '@nuxtjs/gtm'
+    // '@nuxtjs/google-analytics'
   ],
-  gtm: {
-    id: 'GTM-106211927-14'
-  },
+  // googleAnalytics: {
+  //   id: 'UA-106211927-14'
+  // },
+  // debug: {
+  //   enabled: true,
+  //   sendHitTask: true
+  // },
   /*
   ** Nuxt.js modules
   */
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
-    '@nuxtjs/google-adsense'
+    '@nuxtjs/google-adsense',
+    // '@nuxtjs/google-gtag'
   ],
   'google-adsense': {
     id: 'ca-pub-2669162039689132',
     pageLevelAds: true
   },
+  // 'google-gtag': {
+  //   id: 'UA-106211927-14',
+  //   debug: true
+  // },
   /*
   ** Axios module configuration
   ** See https://axios.nuxtjs.org/options
   */
   axios: {
+    baseURL: 'http://47.241.6.230:8080/coupons-management/'
   },
   /*
   ** Build configuration
