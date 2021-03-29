@@ -20,7 +20,7 @@
           target="_blank"
           class="button--grey"
         >
-          GitHub homepage
+          GitHub homepage xx
         </a>
       </div>
     </div>
