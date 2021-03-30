@@ -4,9 +4,6 @@
       <h1 class="title">
         dtestapp
       </h1>
-      <h2 class="subtitle">
-        My great Nuxt.js project
-      </h2>
       <div class="links">
         <a
           href="https://nuxtjs.org/"
@@ -20,11 +17,16 @@
           target="_blank"
           class="button--grey"
         >
-          GitHub homepage xx
+          GitHub homepage hx
         </a>
       </div>
     </div>
-    <div>test branch hh</div>
+    <div>test branch hh aazs
+      <div>sdcz</div>
+    </div>
+    <div>
+      <p>cscxz</p>
+    </div>
   </div>
 </template>
 
